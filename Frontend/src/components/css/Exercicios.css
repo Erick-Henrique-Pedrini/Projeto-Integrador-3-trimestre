@@ -244,11 +244,14 @@ div.s6 div h4 {
 div.s6 div p {
     color: var(--textoPadrao);
     padding: 1.5vw;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
 div.s6 div ul li {
     padding: 2vw;
     padding-top: 1vw;
+    font-size: 1rem;
 }
 
 div.s6 div h2 {
