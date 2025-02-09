@@ -292,7 +292,7 @@ header {
 }
 
 .confirmacao {
-   background-color: var(--backgroundAlerta);
+   background-color: var(--textoBranco);
    position: fixed;
    top: 40vh;
    left: 40vw;
@@ -307,12 +307,12 @@ header {
 }
 
 .confirmacao .desistir {
-   color: rgba(255, 255, 255, 1);
+   color: var(--textoPreto);
    padding: 1vw 1vw 1vw 1vw;
    margin-left: 2.9vw;
    margin-right: 1vw;
    margin-top: 1vw;
-   background-color: var(--corBotaoVerde);
+   background-color: var(--textoBranco);
    border-radius: 0.4vw;
    text-decoration: none;
    border: 2px solid black;
@@ -320,7 +320,7 @@ header {
 }
 
 .confirmacao p {
-   color: rgba(255, 0, 0, 1);
+   color: var(--textoPreto);
    font-weight: bold;
 }
 
@@ -332,9 +332,9 @@ header {
 }
 
 .confirmacao .ir {
-   color: rgba(255, 255, 255, 1);
+   color: var(--textoPreto);
    padding: 1vw 2.2vw 1vw 2.2vw;
-   background-color: var(--corBotaoVermelho);
+   background-color: var(--textoBranco);
    border-radius: 0.4vw;
    text-decoration: none;
    border: 2px solid rgba(0, 0, 0, 1);

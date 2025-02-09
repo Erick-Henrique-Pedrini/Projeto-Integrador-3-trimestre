@@ -60,6 +60,12 @@ section.intolerancias {
     margin: 5vw 0 5vw 0;
 }
 
+.intolerancias ul li.hover:hover {
+   transform: scale(107%);
+    transition: 0.7s;
+   
+}
+
 .intolerancias h2 {
     color: var(--azulTres);
     padding-bottom: 5vw;
