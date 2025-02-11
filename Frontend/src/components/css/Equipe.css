@@ -36,7 +36,7 @@ section.equipe{
  }
  .equipe ul li ul li p{
   color: var(--textoBranco);
-   margin: 0vw 4vw 0vw 3vw;
+   margin: 0.5vw 4vw 0vw 3vw;
    font-size: 1.5rem;
 }
 .equipe ul li ul li p:first-child {
@@ -54,8 +54,14 @@ ul.li1{
 }
 
 .equipe ul li a {
-  padding-left: 2.3vw;
+  padding-left: 3vw;
+  font-size: 2vw;
 }
+.equipe ul li a span {
+  padding-top: 1vw;
+  color: var(--azulQuatro);
+}
+
 
 section.referencias {
     background-color: var(--azulUm);
